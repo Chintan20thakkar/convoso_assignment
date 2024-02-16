@@ -1,0 +1,24 @@
+{
+  "url": "admin-dt.convoso.com",
+  "homepagetitle": "Dashboard",
+  "homepageurl": "https://admin-dt.convoso.com/dashboard#/Index",
+  "countrydropdownval": "+1 United States",
+  "campaigndropdownval": "Global DNC List",
+  "filterval": "Campaign",
+  "filtertextboxval": "Global DNC",
+  "searchapimethod" : "POST",
+  "searchapiurl" :  "https://admin-dt.convoso.com/dnc/search",
+  "uploaddncpagetitle" : "Upload DNC",
+  "uploadpageurl" : "https://admin-dt.convoso.com/dnc/upload#/DncUploading",
+  "globalsearchapibody": {"export":"no","selectOptions":[{"name":"campaign_id","operator":"IN","value":["GLOBAL"]}],"orderOptions":{"name":"id","value":"DESC"},"page":0,"limit":20},
+  "automationcampaignsearchapibody": {"export":"no","selectOptions":[{"name":"campaign_id","operator":"IN","value":["5066"]}],"orderOptions":{"name":"id","value":"DESC"},"page":0,"limit":20},
+  "contentype" : "application/json",
+  "deleteapimethod" : "DELETE",
+  "deleteapiurl" : "https://admin-dt.convoso.com/dnc/%s/delete?id=%s",
+  "noresultfoundval" : "No results found.",
+  "newphonenumber" :  "8884567777",
+  "newcampaign" : "Automation Campaign",
+  "glovalcampaignval" : "GLOBAL",
+  "automationcampaignval" : "5066"
+
+}
