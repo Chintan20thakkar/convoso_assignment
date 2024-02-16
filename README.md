@@ -32,6 +32,18 @@ npx cypress run --spec cypress/e2e/Tests/convoso.assignment.cy.js --headed --bro
 6.To run your tests in using GUI:
 npx cypress open select E2E testing select the browser type and then select the spec file to run
 
+7.Create Local Environment
+
+Create a new file with name 'cypress.env.json' in 'CONVOSO_ASSIGNMENT' folder
+Update username, password in below json and add updated json to 'cypress.env.json' file
+
+{
+
+    "username" : "enterusername",
+    "password" : "enterpassword"
+
+}
+
 Project Structure
 
 cypress-pom-project/
@@ -45,9 +57,6 @@ cypress-pom-project/
 ├── cypress.json             # Cypress configuration file
 ├── package.json
 └── README.md
-
-
-
 
 Key Directories and Files
 cypress/e2e/Tests/: Contains the test files. Each test file typically corresponds to a test suite for a specific page or feature.
