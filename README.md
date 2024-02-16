@@ -34,20 +34,20 @@ npx cypress open select E2E testing select the browser type and then select the 
 
 Project Structure
 
-Convoso_Assignment/
+cypress-pom-project/
 ├── cypress/
-│   ├── integration/
-│   │   └── Tests/                  # Test files
-│   ├── fixtures/ 
-│        └── testdata.json/         # testdata files
+│   ├── fixtures/
+│   ├── e2e
+│   │   └── Tests/           # Test files
 │   ├── support/
-│   │   ├── pageObjects/            # Page object classes
+│   │   ├── pageObjects/     # Page object classes
 │   │   └── commands.js
-│   │   └── e2e.js
-│   │   └── locators.json           #Locators File
-├── cypress.config.js               # Cypress configuration file
+├── cypress.json             # Cypress configuration file
 ├── package.json
 └── README.md
+
+
+
 
 Key Directories and Files
 cypress/e2e/Tests/: Contains the test files. Each test file typically corresponds to a test suite for a specific page or feature.
